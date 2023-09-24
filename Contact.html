@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Magnus Stock Images</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add your CSS styles here, if needed -->
+</head>
+<body>
+    <div class="name">
+        <h1>
+            <!-- <img src="images\23.png" alt="logo image">-->
+            Magnus Stock Images
+        </h1>
+    </div>
+    <div class="maincontent">
+        <div class="rectangle"></div>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to get in touch with us by filling out the form below:</p>
+        
+        <form action="submit_contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <footer>
+        <p>Magnus stock images @2023 terms and conditions apply</p>
+    </footer>
+</body>
+</html>
