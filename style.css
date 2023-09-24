@@ -67,7 +67,7 @@ color:#19323C ;
 }
 .card :hover{
     background-color:aquamarine;
-    transform: scale(1.7); 
+    transform: scale(1.5); 
     z-index: 1; 
     box-shadow: 15px 15px 20px gray; 
 
